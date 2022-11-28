@@ -1,16 +1,20 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import MapContainer from './components/MapContainer.vue'
+import Navbar from './components/Navbar.vue'
+import Home from './components/Home.vue'
+import Feature from './components/Feature.vue'
+import About from './components/About.vue'
 
 
 
 </script>
 <template>
-  <div id="app">
-    <div class="cell cell-map">
-      <MapContainer/>
-    </div>
-    
+  <div class="container overflow-x-hidden">
+    <Navbar/>
+    <Home/>    
+    <Feature/>
+    <MapContainer/>
   </div>
 </template>
 
