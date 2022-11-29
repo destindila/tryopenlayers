@@ -7,7 +7,7 @@
   <section id="home" class="md:mt-30">
     <div>
       <div  class="grid-flow-row bg-gray-100 ">
-        <img src="data/maps2.PNG"  />
+       <img v-bind:src="maps2" alt="" class="w-full" />
       </div>
       <div class="font-bold fill-gray-500 w-full text-left md:mt-2">
         <h2 class="text-4xl md:text-5xl">AKU PETAAA!!</h2>
@@ -18,6 +18,15 @@
   </section>
 </template>
 
+<script>
+  export default {
+    data(){
+      return{
+        maps2: 'data/maps2.PNG'
+      }
+    }
+  }
+</script>
 
 <style>
 .fill-gray-500 {
