@@ -10,7 +10,7 @@ import About from './components/About.vue'
 
 </script>
 <template>
-  <div class="container overflow-x-hidden">
+  <div>
     <Navbar/>
     <Home/>    
     <Feature/>
