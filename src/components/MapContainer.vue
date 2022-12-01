@@ -22,12 +22,24 @@ import Overlay from 'ol/Overlay';
 </script>
 
 <template>
-  <div ref="map-root" style="width: 100%; height: 100%">
-    <div id="popup" class="ol-popup">
-      <a href="#" id="popup-closer" class="ol-popup-closer"></a>
-      <div id="popup-content"></div>
+<h2 class="my-5 text-5xl md:text-6xl font-bold fill-gray-500">About</h2>
+<br/>
+  <section class="grid items-left">    
+    <div class="text-left flex flex-col items-left">
+      <h2 class="md:text-6xl font-bold fill-gray-500">Our Location</h2>
+      <p class="mt-8 md:mt-12 fill-gray-500 text-lg md:text-xl w-full ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id id consequat, eu faucibus nulla. Ultrices mattis lacus, sed maecenas nascetur.</p>
     </div>
-  </div>
+  </section>
+  <div ref="map-root" style="width: 100%; height: 75%">
+      <div id="popup" class="ol-popup">
+        <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+        <div id="popup-content"></div>
+      </div>
+    </div>
+<br/>
+    
+    
+  
 </template>
 
 <script>

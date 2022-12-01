@@ -3,7 +3,8 @@
 
 <template>
   <h2 class="my-5 text-5xl md:text-6xl font-bold fill-gray-500">Feature</h2>
-  <section class="grid md:grid-cols-2 items-left">
+  <br/>
+  <section id="feature" class="grid md:grid-cols-2 items-left">
     <div>
      <img v-bind:src="maps3" alt="" class="w-full h-auto" />
     </div>
@@ -12,6 +13,7 @@
       <p class="mt-8 md:mt-12 fill-gray-500 text-lg md:text-xl w-full ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id id consequat, eu faucibus nulla. Ultrices mattis lacus, sed maecenas nascetur.</p>
     </div>
   </section>
+  <br/>
   <section class="grid md:grid-cols-2 items-left">
     <div class="text-left flex flex-col items-left">
       <h2 class="text-2xl md:text-6xl font-bold fill-gray-500">Fitur Kedua</h2>

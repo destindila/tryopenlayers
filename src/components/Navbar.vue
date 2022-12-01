@@ -31,7 +31,6 @@ onMounted(() => {
         <a @click="showMenu = false" class="fill-gray-500 font-medium" href="#home">Home</a>
         <a @click="showMenu = false" class="fill-gray-500 font-medium" href="#feature">Feature</a>
         <a @click="showMenu = false" class="fill-gray-500 font-medium" href="#about">About</a>
-        <a @click="showMenu = false" class="fill-gray-500 font-medium" href="#sosmed">Social Media</a>
         <button class="hidden md:block px-8 py-2 rounded-full text-white font-medium tracking-wider uppercase bg-secondary w-full lg:w-auto">GET MAPS</button>
       </div>
     </div>

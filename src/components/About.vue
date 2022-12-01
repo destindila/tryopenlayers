@@ -1,21 +1,22 @@
-import MapContainer from './components/MapContainer.vue'
+<script setup>
+</script>
 
 <template>
        <div id="app">
     <div class="cell cell-map">
       <MapContainer/>
-    </div>
-    
+    </div>    
   </div>
       
     
 </template>
-
-<style>
-  html, body {
-    height: 100%;
-    margin: 0;
+<script>
+  export default {
+    name: 'App'
   }
+</script>
+<style>
+  
   #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
     height: 100%;
