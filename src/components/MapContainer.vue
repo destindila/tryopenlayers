@@ -147,7 +147,6 @@ const data = {
       const ft = new GeoJSON().readFeature(data, {
         featureProjection: 'EPSG:3857'
       });
-
       const iconStyle = new Style({
         image: new Icon({
           anchor: [0.5, 46],
@@ -156,7 +155,6 @@ const data = {
           src: 'data/icon.png',
         }),
       });
-
       const lineStyle =  new Style({
         stroke: new Stroke({
           width: 6,
@@ -165,13 +163,11 @@ const data = {
       });
       
       ft.setStyle(lineStyle);
-
        const vectorLayer = new VectorLayer({
         source: new VectorSource({
           features: [ft],
         }),
       })
-
       const msjdAgung = new Feature({
         type: 'icon',
         geometry: new Point([12468923.804169679, -874033.7888506695]),
@@ -179,7 +175,6 @@ const data = {
         population: 4000,
         rainfall: 500,
       });
-
       const golden = new Feature({
         type: 'icon',
         geometry: new Point([12469924.511891412, -872696.2079720063]),
@@ -187,7 +182,6 @@ const data = {
         population: 4000,
         rainfall: 500,
       });
-
       const wagu = new Feature({
         type: 'icon',
         geometry: new Point([12468067.403998489, -870719.4634317195]),
@@ -213,7 +207,6 @@ const data = {
           features: [msjdAgung, wagu, golden],
         }),
       })
-
       const map = new Map({
         target: this.$refs['map-root'],
         layers: [
@@ -222,23 +215,19 @@ const data = {
           }),
           vectorLayer,vectorLayerMkr
         ],
-
         view: new View({
           zoom:14,
           center: [12468974.756841773, -874008.9182193454],         
           constrainResolution: true
         }),
       })
-
       const element = document.getElementById('popup');
-
       const popup = new Overlay({
         element: element,
         positioning: 'bottom-center',
         stopEvent: false,
       });
       map.addOverlay(popup);
-
       let popover;
       function disposePopover() {
         if (popover) {
@@ -246,7 +235,6 @@ const data = {
           popover = undefined;
         }
       }
-
       map.on('click', function (evt) {
         const feature = map.forEachFeatureAtPixel(evt.pixel, function (feature) {
           return feature;
@@ -263,11 +251,9 @@ const data = {
         });
         popover.show();
       });
-
       //map.on('click', function(e){
       //  console.log(e.coordinate);
      // })
-
       map.on('pointermove', function (e) {
         const pixel = map.getEventPixel(e.originalEvent);
         const hit = map.hasFeatureAtPixel(pixel);
@@ -277,8 +263,6 @@ const data = {
       
     },
   }
-
-
   
 </script>
 <style scoped>

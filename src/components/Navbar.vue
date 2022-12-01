@@ -1,6 +1,5 @@
 <script setup>
 import { onMounted, ref } from "vue";
-
 const navbar = ref('')
 const showMenu = ref(false)
 onMounted(() => {

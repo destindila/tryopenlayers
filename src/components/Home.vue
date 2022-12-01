@@ -4,9 +4,9 @@
 </script>
 
 <template>
-  <section id="home" class="md:mt-30">
+  <section id="home" class="container mx-auto md:mt-20 ">
     <div>
-      <div  class="grid-flow-row bg-gray-100 ">
+      <div  class="grid-flow-row">
        <img v-bind:src="maps2" alt="" class="w-full" />
       </div>
       <div class="font-bold fill-gray-500 w-full text-left md:mt-2">

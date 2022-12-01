@@ -8,7 +8,6 @@ import 'ol/ol.css'
 import VectorLayer from 'ol/layer/Vector'
 import VectorSource from 'ol/source/Vector'
 import GeoJSON from 'ol/format/GeoJSON'
-
 </script>
 <template>
   <textarea v-model="geojsonEdit"></textarea>

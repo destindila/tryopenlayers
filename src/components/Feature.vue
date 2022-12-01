@@ -1,31 +1,24 @@
 <script setup>
-
 </script>
 
 <template>
-  <section id="category" class="flex flex-col items-center py-32">
-    <h2 class="my-10 text-5xl md:text-6xl font-bold fill-gray-500">Feature</h2>
-    <div class="grid grid-cols-1 md:grid-cols-3 place-items-center">
-      <div v-for="category of categories" :key="category.title" class="fill-gray-500 grid place-items-center gap-5 text-center">
-        <div class="p-10">
-          <img v-bind:src="maps1" alt="" class="w-full" />
-        </div>
-        <h3 class="text-3xl font-bold">Fitur 1</h3>
-        <p class="w-3/4">ya ya yaaa ye yee</p>
-      </div>
+  <h2 class="my-5 text-5xl md:text-6xl font-bold fill-gray-500">Feature</h2>
+  <section class="grid md:grid-cols-2 items-left">
+    <div>
+     <img v-bind:src="maps3" alt="" class="w-full h-auto" />
+    </div>
+    <div class="text-left flex flex-col items-left">
+      <h2 class="text-2xl md:text-6xl font-bold fill-gray-500">Fitur Pertama</h2>
+      <p class="mt-8 md:mt-12 fill-gray-500 text-lg md:text-xl w-full ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id id consequat, eu faucibus nulla. Ultrices mattis lacus, sed maecenas nascetur.</p>
     </div>
   </section>
-  <section class="grid grid-flow-col grid-cols-1 md:grid-cols-2 md:gap-10 items-center">
-    <div class="md:p-10">
-     <img v-bind:src="maps3" alt="" class="w-full" />
+  <section class="grid md:grid-cols-2 items-left">
+    <div class="text-left flex flex-col items-left">
+      <h2 class="text-2xl md:text-6xl font-bold fill-gray-500">Fitur Kedua</h2>
+      <p class="mt-8 md:mt-12 fill-gray-500 text-lg md:text-xl w-full ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id id consequat, eu faucibus nulla. Ultrices mattis lacus, sed maecenas nascetur.</p>
     </div>
-    <div class="text-center flex flex-col items-center">
-      <h2 class="text-5xl md:text-6xl font-bold fill-gray-500">Fitur 2</h2>
-      <div class="flex items-center gap-5">
-        <h2 class="text-5xl md:text-6xl font-bold fill-gray-500">yeaaaaay</h2>
-        <img v-bind:src="maps4" alt="" class="w-full" />
-      </div>
-      <p class="mt-8 md:mt-12 fill-gray-500 text-lg md:text-xl w-full md:w-[80%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id id consequat, eu faucibus nulla. Ultrices mattis lacus, sed maecenas nascetur.</p>
+    <div>
+     <img v-bind:src="maps1" alt="" class="w-full h-auto" />
     </div>
   </section>
 </template>
