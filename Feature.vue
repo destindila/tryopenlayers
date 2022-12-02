@@ -4,7 +4,7 @@
 <template>
   <h2 class="my-5 text-5xl md:text-6xl font-bold fill-gray-500">Feature</h2>
   <br/>
-  <section class="grid md:grid-cols-2 items-left">
+  <section id="feature" class="grid md:grid-cols-2 items-left">
     <div>
      <img v-bind:src="maps3" alt="" class="w-full h-auto" />
     </div>
