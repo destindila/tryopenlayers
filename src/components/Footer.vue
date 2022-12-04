@@ -18,7 +18,7 @@
     <div class="grid place-items-center w-full ">
       <div class="flex items-center gap-10">
         <a href="#" class="bg-secondary h-12 w-12 grid place-items-center rounded-md">
-          <img v-bind:src="twitter" alt="">
+          <img :src="twitter">
         </a>
           
       </div>
@@ -30,7 +30,7 @@
   export default {
     data(){
       return{
-        twitter: 'data/twitter.png'
+        twitter: '/twitter.png'
       }
     }
   }
