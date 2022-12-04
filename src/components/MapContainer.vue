@@ -205,7 +205,7 @@ const data = {
       const styleMarker =new Style({
         image: new Icon({
           anchor: [0.5, 1],
-          src: 'data/icon.png',
+          src: '/icon.png',
           scale:[0.2,0.2]
         }),
       });
