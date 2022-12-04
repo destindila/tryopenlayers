@@ -22,7 +22,7 @@
   export default {
     data(){
       return{
-        maps2: '/public/maps2.PNG'
+        maps2: '/maps2.PNG'
       }
     }
   }
