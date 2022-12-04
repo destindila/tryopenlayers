@@ -6,7 +6,7 @@
   <br/>
   <section id="feature" class="grid md:grid-cols-2 items-left">
     <div>
-     <img :src="maps3" class="w-full h-auto" />
+     <img :src="maps3" />
     </div>
     <div class="text-left flex flex-col items-left">
       <h2 class="text-2xl md:text-6xl font-bold fill-gray-500">Fitur Pertama</h2>
