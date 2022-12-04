@@ -7,9 +7,7 @@
   <section id="home" class="container mx-auto md:mt-20 ">
     <div>
       <div  class="grid-flow-row">
-       <img v-bind:src="ig" alt="" class="w-full" />
-       <img v-bind:src="icon" alt="" class="w-full" />
-       <img v-bind:src="maps2" alt="" class="w-full" />
+       <img :src="maps2" class="w-full" />
       </div>
       <div class="font-bold fill-gray-500 w-full text-left md:mt-2">
         <h2 class="text-4xl md:text-5xl">AKU PETAAA!!</h2>

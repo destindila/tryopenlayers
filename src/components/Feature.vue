@@ -6,7 +6,7 @@
   <br/>
   <section id="feature" class="grid md:grid-cols-2 items-left">
     <div>
-     <img v-bind:src="maps3" alt="" class="w-full h-auto" />
+     <img :src="maps3" class="w-full h-auto" />
     </div>
     <div class="text-left flex flex-col items-left">
       <h2 class="text-2xl md:text-6xl font-bold fill-gray-500">Fitur Pertama</h2>
@@ -20,7 +20,7 @@
       <p class="mt-8 md:mt-12 fill-gray-500 text-lg md:text-xl w-full ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id id consequat, eu faucibus nulla. Ultrices mattis lacus, sed maecenas nascetur.</p>
     </div>
     <div>
-     <img v-bind:src="maps1" alt="" class="w-full h-auto" />
+     <img :src="maps1" class="w-full h-auto" />
     </div>
   </section>
 </template>
