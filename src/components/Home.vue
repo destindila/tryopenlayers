@@ -7,7 +7,7 @@
   <section id="home" class="container mx-auto md:mt-20 ">
     <div>
       <div  class="grid-flow-row">
-       <img :src="maps2" class="w-full" />
+       <img :src="maps2" />
       </div>
       <div class="font-bold fill-gray-500 w-full text-left md:mt-2">
         <h2 class="text-4xl md:text-5xl">AKU PETAAA!!</h2>
