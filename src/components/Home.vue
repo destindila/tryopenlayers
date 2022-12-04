@@ -7,6 +7,8 @@
   <section id="home" class="container mx-auto md:mt-20 ">
     <div>
       <div  class="grid-flow-row">
+       <img v-bind:src="ig" alt="" class="w-full" />
+       <img v-bind:src="icon" alt="" class="w-full" />
        <img v-bind:src="maps2" alt="" class="w-full" />
       </div>
       <div class="font-bold fill-gray-500 w-full text-left md:mt-2">
@@ -22,7 +24,9 @@
   export default {
     data(){
       return{
-        maps2: 'data/maps2.PNG'
+        maps2: 'data/maps2.PNG',
+        ig: 'src/assets/ig.jpg',
+        icon: 'public/icon.png'
       }
     }
   }
