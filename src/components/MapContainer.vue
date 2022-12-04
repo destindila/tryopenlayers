@@ -164,7 +164,7 @@ const data = {
           anchor: [0.5, 46],
           anchorXUnits: 'fraction',
           anchorYUnits: 'pixels',
-          src: 'data/icon.png',
+          src: '/icon.png',
         }),
       });
       const lineStyle =  new Style({

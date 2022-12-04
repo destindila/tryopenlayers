@@ -29,9 +29,9 @@
   export default {
     data(){
       return{
-        maps1: 'data/maps1.jpg',
-        maps3: 'data/maps3.PNG',
-        maps4: 'data/maps4.PNG'
+        maps1: '/maps1.jpg',
+        maps3: '/maps3.PNG',
+        maps4: '/maps4.PNG'
       }
     }
   }
