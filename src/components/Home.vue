@@ -22,9 +22,7 @@
   export default {
     data(){
       return{
-        maps2: 'data/maps2.PNG',
-        ig: 'src/assets/ig.jpg',
-        icon: 'public/icon.png'
+        maps2: '/data/maps2.PNG'
       }
     }
   }
