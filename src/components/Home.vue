@@ -22,7 +22,7 @@
   export default {
     data(){
       return{
-        maps2: '/data/maps2.PNG'
+        maps2: '/src/assets/maps2.PNG'
       }
     }
   }
